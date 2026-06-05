@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv311/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node
+node_modules/
+frontend/dist/
+tests/e2e/node_modules/
+tests/e2e/playwright-report/
+tests/e2e/test-results/
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+
+# Temp
+/tmp/shadowqr/
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
