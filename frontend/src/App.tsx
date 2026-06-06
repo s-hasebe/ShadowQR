@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { UploadZone } from './components/UploadZone'
 import { QRTextInput } from './components/QRTextInput'
 import { ParamPanel } from './components/ParamPanel'

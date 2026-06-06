@@ -1,4 +1,3 @@
-import React from 'react'
 import { useParamStore, computeAngle } from '../store/paramStore'
 
 export function ParamPanel() {

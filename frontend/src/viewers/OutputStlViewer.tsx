@@ -1,7 +1,7 @@
-import React, { Suspense } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, useLoader } from '@react-three/drei'
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader'
+import { Suspense } from 'react'
+import { Canvas, useLoader } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
+import { STLLoader } from 'three/addons/loaders/STLLoader.js'
 import * as THREE from 'three'
 import { useStlStore } from '../store/stlStore'
 

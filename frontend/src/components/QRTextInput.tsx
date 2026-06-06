@@ -1,5 +1,3 @@
-import React from 'react'
-
 const MAX_BYTES = 2953
 
 interface Props {

@@ -1,11 +1,8 @@
-import React from 'react'
 import { useJobStore } from '../store/jobStore'
-import { useStlStore } from '../store/stlStore'
 import { getDownloadUrl } from '../api/client'
 
 export function VerifyResult() {
   const { status, qrVerified, qrDecodedText, error, warning, jobId } = useJobStore()
-  const setOutputStlUrl = useStlStore((s) => s.setOutputStlUrl)
 
   if (status === 'idle') return null
 

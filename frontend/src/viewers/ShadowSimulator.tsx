@@ -1,11 +1,11 @@
-import React, { useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { useParamStore, computeAngle } from '../store/paramStore'
 import { useJobStore } from '../store/jobStore'
 
 export function ShadowSimulator() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const params = useParamStore()
-  const { jobId, status } = useJobStore()
+  const { status } = useJobStore()
   const angle = computeAngle(params.light, params.wall_normal)
 
   // QR影のシミュレーション表示（バックエンド検証成功後は実影画像を取得してもよいが、

@@ -33,3 +33,4 @@ tests/e2e/test-results/
 # Env
 .env
 .env.local
+.vercel
